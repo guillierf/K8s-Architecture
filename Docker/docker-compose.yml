@@ -1,5 +1,5 @@
 web:
-  image: janakiramm/web
+  image: guillierf/web
   ports:
    - "3000:5000"
   links:
