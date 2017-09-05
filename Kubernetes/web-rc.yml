@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: janakiramm/web
+          image: guillierf/web
           ports:
             - containerPort: 5000
               name: http
