@@ -7,6 +7,7 @@ Make sure that you have access to a Kubernetes cluster.
 ```
 cd Docker
 docker build -t <DOCKER_HUB_USER>/web .
+docker login
 docker push <DOCKER_HUB_USER>/web
 ```
 
