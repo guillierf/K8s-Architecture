@@ -1,3 +1,7 @@
+# Code from Webinar Kubernetes Webinar Series - Kubernetes Architecture 101
+https://www.youtube.com/watch?v=zeS6OyDoy78&t=2839s
+
+
 # kubernetes-101
 Tutorial to build and deploy a simple Python app in Kubernetes. The walkthrough is available [here](https://youtu.be/zeS6OyDoy78).
 
