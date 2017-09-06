@@ -1,4 +1,4 @@
-# Code from Webinar Kubernetes Webinar Series - Kubernetes Architecture 101
+# Code from Kubernetes Webinar Series - Kubernetes Architecture 101
 https://www.youtube.com/watch?v=zeS6OyDoy78&t=2839s
 
 
