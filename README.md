@@ -3,7 +3,9 @@ https://www.youtube.com/watch?v=zeS6OyDoy78&t=2839s
 
 ## Narrative for this demo
 1. BUILD: build image locally on your laptop: docker build . -t <DOCKER_HUB_USER>/web  (then push the image to registry)
+
 2. DEPLOY: run app locally on your laptop: docker-compose up -d 
+
 3. DEPLOY: run app on K8s cluster: kubectl create -f
 
 
