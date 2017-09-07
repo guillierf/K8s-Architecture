@@ -1,6 +1,11 @@
 ## Code from Kubernetes Webinar Series - Kubernetes Architecture 101
 https://www.youtube.com/watch?v=zeS6OyDoy78&t=2839s
 
+## Narrative for this demo
+1. build image locally on your laptop: docker build -t <DOCKER_HUB_USER>/web .
+2. run app locally on your laptop: docker-compose up -d 
+3. run app on K8s cluster: kubectl create -f
+
 
 # kubernetes-101
 Tutorial to build and deploy a simple Python app in Kubernetes. The walkthrough is available [here](https://youtu.be/zeS6OyDoy78).
