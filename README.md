@@ -16,7 +16,7 @@ Make sure that you have access to a Kubernetes cluster.
 
 ## Build a Docker image from existing Python source code and push it to Docker Hub. Replace DOCKER_HUB_USER with your Docker Hub username.
 ```
-cd Docker
+cd Build-Docker
 docker build . -t <DOCKER_HUB_USER>/web
 docker login
 docker push <DOCKER_HUB_USER>/web
@@ -34,7 +34,7 @@ curl localhost:5000
 
 ## Deploy the app to Kubernetes
 ```
-cd ../Kubernetes
+cd ../Deploy-Kubernetes
 kubectl create -f db-pod.yml
 kubectl create -f db-svc.yml
 kubectl create -f web-pod.yml
