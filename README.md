@@ -29,7 +29,7 @@ docker-compose up -d
 
 ## Test the app
 ```
-curl localhost:5000
+curl localhost:3000
 ```
 
 ## Deploy the app to Kubernetes
